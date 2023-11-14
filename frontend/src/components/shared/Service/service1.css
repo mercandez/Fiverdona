@@ -1,0 +1,16 @@
+.service1-container {
+  display: flex;
+  width: 800px;
+  margin-top: 60px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  text-align: justify;
+  align-items: center;
+  min-height: 150px;
+  justify-content: center;
+  background-color: #dcb233ab;
+  border: 2px solid #000000;
+  list-style: none;
+  overflow: hidden;
+}

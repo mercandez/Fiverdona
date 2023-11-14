@@ -1,0 +1,13 @@
+.p-error {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+
+  color: red;
+  font-weight: bold;
+  font-size: large;
+
+  margin-top: 20px;
+  width: 25rem;
+}

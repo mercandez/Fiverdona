@@ -1,0 +1,13 @@
+.footer-general {
+  display: flex;
+
+  padding: 2rem;
+
+  background-image: linear-gradient(to left, #5c9ea1, #487375, #1e3837);
+  color: rgb(0, 0, 0);
+}
+
+.p-footer {
+  margin: auto;
+  font-weight: bold;
+}

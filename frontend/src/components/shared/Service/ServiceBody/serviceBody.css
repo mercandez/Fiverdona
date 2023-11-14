@@ -1,0 +1,9 @@
+.div-sb {
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 600px;
+  margin: auto;
+  word-wrap: break-word;
+  overflow: auto;
+}

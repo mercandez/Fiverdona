@@ -1,0 +1,14 @@
+.container-service-header {
+  display: inline-flex;
+  width: 770px;
+  height: auto;
+  margin-top: 20px;
+  justify-content: space-around;
+  font-weight: bold;
+  background: none;
+  background-color: bisque;
+  border-radius: 0%;
+  list-style: none;
+  overflow: clip;
+  padding: 5px;
+}

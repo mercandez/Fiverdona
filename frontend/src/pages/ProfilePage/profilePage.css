@@ -1,0 +1,84 @@
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-profile {
+  margin: 80px;
+  border: 2px solid #b99834;
+  border-radius: 50px;
+  width: 100%;
+  background-color: #dcb233b4;
+}
+
+.f-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-upload {
+  margin-top: 30px;
+  margin-left: 275px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.avatar-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #48afc2;
+}
+
+.i-profile {
+  display: flex;
+  height: 40px;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: #5c9ba0af;
+  border-radius: 40px 40px 40px 40px;
+  font-size: 20px;
+}
+
+.l-profile {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.b-profile {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0.5rem;
+
+  width: 180px;
+  border-radius: 40px 40px 40px 40px;
+
+  background-color: #dda964;
+  font-weight: bold;
+}
+
+.b-profile:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 2px 1px rgba(128, 128, 128, 0.6);
+}
+.image-upload > input {
+  display: none;
+}
+
+.image-upload img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #48afc2;
+  cursor: pointer;
+}

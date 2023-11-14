@@ -1,0 +1,40 @@
+.container-service-comment {
+  display: inline-flex;
+
+  width: 400px;
+  height: auto;
+  margin: auto;
+  justify-content: space-around;
+  font-weight: bold;
+  background: none;
+  background-color: bisque;
+  border-radius: 20px;
+  list-style: none;
+  padding: 10px;
+}
+.p {
+  text-align: center;
+}
+
+.d-archivo-comment {
+  width: 150px;
+  height: 20px;
+  border-radius: 40px 40px 40px 40px;
+  background-color: #dda964;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.d-archivo-comment a {
+  padding: 0.2rem;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.comentario {
+  margin: 20px;
+}

@@ -1,0 +1,63 @@
+.f-service-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 80%;
+  border-radius: 30px;
+  background-color: #dcb233ab;
+  border: 2px solid #b99834;
+}
+
+.f-service-container > h2 {
+  margin-bottom: 40px;
+}
+
+.f-service-container textarea {
+  width: 40%;
+  height: 100px;
+
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.f-service-container input {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.f-service-container .i-service {
+  height: 40px;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 1rem;
+
+  text-align: center;
+  font-weight: bold;
+  background-color: #5c9ba098;
+  border-radius: 40px;
+}
+
+.f-service-container b-service {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0.5rem;
+
+  width: 120px;
+  border-radius: 40px;
+
+  background-color: #dda964;
+  font-weight: bold;
+}
+
+.b-service:hover {
+  transform: scale(1.05);
+  box-shadow: 1px 2px 1px rgba(128, 128, 128, 0.6);
+}
